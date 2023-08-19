@@ -1,0 +1,1304 @@
+2023-08-19 13:40:38,234 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:Starting ThymeleafApplication using Java 17.0.8 with PID 15860 (C:\Users\firti\IdeaProjects\thymeleaf\target\classes started by firti in C:\Users\firti\IdeaProjects\thymeleaf)
+2023-08-19 13:40:38,242 DEBUG [restartedMain] com.example.thymeleaf.ThymeleafApplication:Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-19 13:40:38,244 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:No active profile set, falling back to 1 default profile: "default"
+2023-08-19 13:40:38,304 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-19 13:40:38,304 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-19 13:40:38,924 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-19 13:40:38,988 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2023-08-19 13:40:39,674 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2023-08-19 13:40:39,688 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2023-08-19 13:40:39,689 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-19 13:40:39,745 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2023-08-19 13:40:39,746 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1440 ms
+2023-08-19 13:40:39,803 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:Driver class org.postgresql.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@64ea23e3
+2023-08-19 13:40:39,913 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-19 13:40:40,007 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-19 13:40:40,009 INFO  [restartedMain] org.hibernate.cfg.Environment:HHH000406: Using bytecode reflection optimizer
+2023-08-19 13:40:40,160 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-08-19 13:40:40,296 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-19 13:40:40,314 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:HikariPool-1 - configuration:
+2023-08-19 13:40:40,318 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:allowPoolSuspension.............false
+2023-08-19 13:40:40,318 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:autoCommit......................true
+2023-08-19 13:40:40,318 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:catalog.........................none
+2023-08-19 13:40:40,318 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionInitSql...............none
+2023-08-19 13:40:40,318 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionTestQuery.............none
+2023-08-19 13:40:40,318 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionTimeout...............30000
+2023-08-19 13:40:40,318 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSource......................none
+2023-08-19 13:40:40,318 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceClassName.............none
+2023-08-19 13:40:40,319 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceJNDI..................none
+2023-08-19 13:40:40,319 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceProperties............{password=<masked>}
+2023-08-19 13:40:40,319 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:driverClassName................."org.postgresql.Driver"
+2023-08-19 13:40:40,319 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:exceptionOverrideClassName......none
+2023-08-19 13:40:40,319 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:healthCheckProperties...........{}
+2023-08-19 13:40:40,319 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:healthCheckRegistry.............none
+2023-08-19 13:40:40,319 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:idleTimeout.....................600000
+2023-08-19 13:40:40,320 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:initializationFailTimeout.......1
+2023-08-19 13:40:40,320 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:isolateInternalQueries..........false
+2023-08-19 13:40:40,320 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:jdbcUrl.........................jdbc:postgresql://localhost:5432/thymeleaf
+2023-08-19 13:40:40,320 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:keepaliveTime...................0
+2023-08-19 13:40:40,320 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:leakDetectionThreshold..........0
+2023-08-19 13:40:40,320 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:maxLifetime.....................1800000
+2023-08-19 13:40:40,320 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:maximumPoolSize.................10
+2023-08-19 13:40:40,320 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:metricRegistry..................none
+2023-08-19 13:40:40,320 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:metricsTrackerFactory...........none
+2023-08-19 13:40:40,320 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:minimumIdle.....................10
+2023-08-19 13:40:40,320 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:password........................<masked>
+2023-08-19 13:40:40,320 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:poolName........................"HikariPool-1"
+2023-08-19 13:40:40,322 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:readOnly........................false
+2023-08-19 13:40:40,322 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:registerMbeans..................false
+2023-08-19 13:40:40,322 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:scheduledExecutor...............none
+2023-08-19 13:40:40,322 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:schema..........................none
+2023-08-19 13:40:40,322 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:threadFactory...................internal
+2023-08-19 13:40:40,322 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:transactionIsolation............default
+2023-08-19 13:40:40,322 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:username........................"postgres"
+2023-08-19 13:40:40,322 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:validationTimeout...............5000
+2023-08-19 13:40:40,322 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2023-08-19 13:40:40,545 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@33364ef9
+2023-08-19 13:40:40,546 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2023-08-19 13:40:40,655 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-08-19 13:40:40,691 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@247d8862
+2023-08-19 13:40:40,747 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@617f0289
+2023-08-19 13:40:40,807 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18a2df11
+2023-08-19 13:40:40,829 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-08-19 13:40:40,862 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@150fdc6
+2023-08-19 13:40:40,911 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7eca50f3
+2023-08-19 13:40:40,981 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@df27fa0
+2023-08-19 13:40:41,033 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a67358
+2023-08-19 13:40:41,075 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51e0027
+2023-08-19 13:40:41,119 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@297f85bf
+2023-08-19 13:40:41,137 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 13:40:41,396 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-19 13:40:41,461 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-19 13:40:41,725 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-19 13:40:41,842 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:Adding welcome page template: index
+2023-08-19 13:40:42,025 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2023-08-19 13:40:42,059 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-19 13:40:42,069 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:Started ThymeleafApplication in 4.225 seconds (process running for 5.643)
+2023-08-19 13:40:57,942 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-19 13:41:10,663 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 13:41:10,664 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 13:41:40,668 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 13:41:40,668 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 13:42:05,710 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-19 13:42:05,714 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2023-08-19 13:42:05,714 DEBUG [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 13:42:05,715 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@33364ef9: (connection evicted)
+2023-08-19 13:42:05,716 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@247d8862: (connection evicted)
+2023-08-19 13:42:05,716 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@617f0289: (connection evicted)
+2023-08-19 13:42:05,717 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@18a2df11: (connection evicted)
+2023-08-19 13:42:05,717 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@150fdc6: (connection evicted)
+2023-08-19 13:42:05,717 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7eca50f3: (connection evicted)
+2023-08-19 13:42:05,718 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@df27fa0: (connection evicted)
+2023-08-19 13:42:05,718 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3a67358: (connection evicted)
+2023-08-19 13:42:05,719 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@51e0027: (connection evicted)
+2023-08-19 13:42:05,720 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@297f85bf: (connection evicted)
+2023-08-19 13:42:05,720 DEBUG [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-08-19 13:42:05,720 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2023-08-19 14:15:53,317 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:Starting ThymeleafApplication using Java 17.0.8 with PID 30252 (C:\Users\firti\IdeaProjects\thymeleaf\target\classes started by firti in C:\Users\firti\IdeaProjects\thymeleaf)
+2023-08-19 14:15:53,318 DEBUG [restartedMain] com.example.thymeleaf.ThymeleafApplication:Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-19 14:15:53,319 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:No active profile set, falling back to 1 default profile: "default"
+2023-08-19 14:15:53,364 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-19 14:15:53,364 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-19 14:15:53,935 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-19 14:15:53,996 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2023-08-19 14:15:54,630 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2023-08-19 14:15:54,640 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2023-08-19 14:15:54,641 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-19 14:15:54,691 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2023-08-19 14:15:54,692 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1326 ms
+2023-08-19 14:15:54,757 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:Driver class org.postgresql.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3cb416f4
+2023-08-19 14:15:54,863 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-19 14:15:54,922 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-19 14:15:54,924 INFO  [restartedMain] org.hibernate.cfg.Environment:HHH000406: Using bytecode reflection optimizer
+2023-08-19 14:15:55,041 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-08-19 14:15:55,169 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-19 14:15:55,187 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:HikariPool-1 - configuration:
+2023-08-19 14:15:55,190 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:allowPoolSuspension.............false
+2023-08-19 14:15:55,190 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:autoCommit......................true
+2023-08-19 14:15:55,190 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:catalog.........................none
+2023-08-19 14:15:55,190 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionInitSql...............none
+2023-08-19 14:15:55,191 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionTestQuery.............none
+2023-08-19 14:15:55,191 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionTimeout...............30000
+2023-08-19 14:15:55,191 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSource......................none
+2023-08-19 14:15:55,191 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceClassName.............none
+2023-08-19 14:15:55,191 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceJNDI..................none
+2023-08-19 14:15:55,192 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceProperties............{password=<masked>}
+2023-08-19 14:15:55,192 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:driverClassName................."org.postgresql.Driver"
+2023-08-19 14:15:55,192 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:exceptionOverrideClassName......none
+2023-08-19 14:15:55,192 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:healthCheckProperties...........{}
+2023-08-19 14:15:55,193 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:healthCheckRegistry.............none
+2023-08-19 14:15:55,193 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:idleTimeout.....................600000
+2023-08-19 14:15:55,193 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:initializationFailTimeout.......1
+2023-08-19 14:15:55,193 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:isolateInternalQueries..........false
+2023-08-19 14:15:55,193 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:jdbcUrl.........................jdbc:postgresql://localhost:5432/thymeleaf
+2023-08-19 14:15:55,193 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:keepaliveTime...................0
+2023-08-19 14:15:55,193 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:leakDetectionThreshold..........0
+2023-08-19 14:15:55,194 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:maxLifetime.....................1800000
+2023-08-19 14:15:55,194 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:maximumPoolSize.................10
+2023-08-19 14:15:55,194 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:metricRegistry..................none
+2023-08-19 14:15:55,194 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:metricsTrackerFactory...........none
+2023-08-19 14:15:55,194 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:minimumIdle.....................10
+2023-08-19 14:15:55,194 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:password........................<masked>
+2023-08-19 14:15:55,194 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:poolName........................"HikariPool-1"
+2023-08-19 14:15:55,194 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:readOnly........................false
+2023-08-19 14:15:55,195 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:registerMbeans..................false
+2023-08-19 14:15:55,195 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:scheduledExecutor...............none
+2023-08-19 14:15:55,195 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:schema..........................none
+2023-08-19 14:15:55,195 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:threadFactory...................internal
+2023-08-19 14:15:55,195 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:transactionIsolation............default
+2023-08-19 14:15:55,195 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:username........................"postgres"
+2023-08-19 14:15:55,195 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:validationTimeout...............5000
+2023-08-19 14:15:55,195 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2023-08-19 14:15:55,366 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@74635088
+2023-08-19 14:15:55,368 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2023-08-19 14:15:55,481 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-08-19 14:15:55,521 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@314c532a
+2023-08-19 14:15:55,588 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@744ecb67
+2023-08-19 14:15:55,611 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-08-19 14:15:55,744 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@16f6c062
+2023-08-19 14:15:55,798 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14613428
+2023-08-19 14:15:55,845 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68e56553
+2023-08-19 14:15:56,006 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2d27d90c
+2023-08-19 14:15:56,057 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@df2e91a
+2023-08-19 14:15:56,103 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@102f4cf8
+2023-08-19 14:15:56,136 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-19 14:15:56,148 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@53a36c53
+2023-08-19 14:15:56,166 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2023-08-19 14:15:56,178 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-19 14:15:56,453 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-19 14:15:56,583 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:Adding welcome page template: index
+2023-08-19 14:15:56,769 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2023-08-19 14:15:56,798 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-19 14:15:56,806 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:Started ThymeleafApplication in 3.907 seconds (process running for 4.357)
+2023-08-19 14:16:03,171 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-19 14:16:03,628 ERROR [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine:[THYMELEAF][http-nio-8080-exec-1] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "@{'/page/' + ${currentPage + 1}" (template: "index" - line 47, col 56)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{'/page/' + ${currentPage + 1}" (template: "index" - line 47, col 56)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+2023-08-19 14:16:03,642 ERROR [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{'/page/' + ${currentPage + 1}" (template: "index" - line 47, col 56)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-19 14:16:05,161 ERROR [http-nio-8080-exec-2] org.thymeleaf.TemplateEngine:[THYMELEAF][http-nio-8080-exec-2] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "@{'/page/' + ${currentPage + 1}" (template: "index" - line 47, col 56)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{'/page/' + ${currentPage + 1}" (template: "index" - line 47, col 56)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+2023-08-19 14:16:05,162 ERROR [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{'/page/' + ${currentPage + 1}" (template: "index" - line 47, col 56)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-19 14:16:24,286 ERROR [http-nio-8080-exec-3] org.thymeleaf.TemplateEngine:[THYMELEAF][http-nio-8080-exec-3] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "@{'/page/' + ${currentPage + 1}" (template: "index" - line 47, col 56)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{'/page/' + ${currentPage + 1}" (template: "index" - line 47, col 56)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+2023-08-19 14:16:24,289 ERROR [http-nio-8080-exec-3] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{'/page/' + ${currentPage + 1}" (template: "index" - line 47, col 56)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-19 14:16:25,494 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:16:25,494 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:16:55,502 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:16:55,503 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:17:25,508 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:17:25,509 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:17:55,524 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:17:55,525 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:18:25,526 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:18:25,527 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:18:55,538 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:18:55,538 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:19:25,552 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:19:25,553 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:19:55,568 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:19:55,569 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:20:25,585 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:20:25,586 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:20:55,586 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:20:55,587 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:21:25,597 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:21:25,598 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:21:55,602 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:21:55,602 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:22:07,278 ERROR [http-nio-8080-exec-5] org.thymeleaf.TemplateEngine:[THYMELEAF][http-nio-8080-exec-5] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "@{'/page/' + ${currentPage + 1}" (template: "index" - line 47, col 56)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{'/page/' + ${currentPage + 1}" (template: "index" - line 47, col 56)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+2023-08-19 14:22:07,280 ERROR [http-nio-8080-exec-5] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{'/page/' + ${currentPage + 1}" (template: "index" - line 47, col 56)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077)
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372)
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-08-19 14:22:25,609 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:22:25,610 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:22:55,623 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:22:55,623 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:23:25,639 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:23:25,639 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:23:55,649 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:23:55,650 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:24:09,024 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-19 14:24:09,027 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2023-08-19 14:24:09,027 DEBUG [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:24:09,028 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@74635088: (connection evicted)
+2023-08-19 14:24:09,029 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@314c532a: (connection evicted)
+2023-08-19 14:24:09,029 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@744ecb67: (connection evicted)
+2023-08-19 14:24:09,030 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@16f6c062: (connection evicted)
+2023-08-19 14:24:09,030 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@14613428: (connection evicted)
+2023-08-19 14:24:09,030 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@68e56553: (connection evicted)
+2023-08-19 14:24:09,031 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2d27d90c: (connection evicted)
+2023-08-19 14:24:09,031 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@df2e91a: (connection evicted)
+2023-08-19 14:24:09,032 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@102f4cf8: (connection evicted)
+2023-08-19 14:24:09,032 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@53a36c53: (connection evicted)
+2023-08-19 14:24:09,032 DEBUG [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-08-19 14:24:09,033 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2023-08-19 14:24:15,461 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:Starting ThymeleafApplication using Java 17.0.8 with PID 30600 (C:\Users\firti\IdeaProjects\thymeleaf\target\classes started by firti in C:\Users\firti\IdeaProjects\thymeleaf)
+2023-08-19 14:24:15,463 DEBUG [restartedMain] com.example.thymeleaf.ThymeleafApplication:Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-19 14:24:15,463 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:No active profile set, falling back to 1 default profile: "default"
+2023-08-19 14:24:15,511 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-19 14:24:15,511 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-19 14:24:16,054 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-19 14:24:16,108 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2023-08-19 14:24:16,678 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2023-08-19 14:24:16,686 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2023-08-19 14:24:16,687 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-19 14:24:16,743 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2023-08-19 14:24:16,744 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1233 ms
+2023-08-19 14:24:16,795 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:Driver class org.postgresql.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1f4584f0
+2023-08-19 14:24:16,885 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-19 14:24:16,943 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-19 14:24:16,945 INFO  [restartedMain] org.hibernate.cfg.Environment:HHH000406: Using bytecode reflection optimizer
+2023-08-19 14:24:17,066 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-08-19 14:24:17,167 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-19 14:24:17,178 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:HikariPool-1 - configuration:
+2023-08-19 14:24:17,181 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:allowPoolSuspension.............false
+2023-08-19 14:24:17,181 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:autoCommit......................true
+2023-08-19 14:24:17,181 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:catalog.........................none
+2023-08-19 14:24:17,181 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionInitSql...............none
+2023-08-19 14:24:17,181 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionTestQuery.............none
+2023-08-19 14:24:17,181 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionTimeout...............30000
+2023-08-19 14:24:17,181 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSource......................none
+2023-08-19 14:24:17,182 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceClassName.............none
+2023-08-19 14:24:17,182 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceJNDI..................none
+2023-08-19 14:24:17,182 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceProperties............{password=<masked>}
+2023-08-19 14:24:17,182 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:driverClassName................."org.postgresql.Driver"
+2023-08-19 14:24:17,182 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:exceptionOverrideClassName......none
+2023-08-19 14:24:17,183 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:healthCheckProperties...........{}
+2023-08-19 14:24:17,183 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:healthCheckRegistry.............none
+2023-08-19 14:24:17,183 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:idleTimeout.....................600000
+2023-08-19 14:24:17,183 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:initializationFailTimeout.......1
+2023-08-19 14:24:17,183 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:isolateInternalQueries..........false
+2023-08-19 14:24:17,183 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:jdbcUrl.........................jdbc:postgresql://localhost:5432/thymeleaf
+2023-08-19 14:24:17,183 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:keepaliveTime...................0
+2023-08-19 14:24:17,183 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:leakDetectionThreshold..........0
+2023-08-19 14:24:17,183 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:maxLifetime.....................1800000
+2023-08-19 14:24:17,184 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:maximumPoolSize.................10
+2023-08-19 14:24:17,184 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:metricRegistry..................none
+2023-08-19 14:24:17,184 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:metricsTrackerFactory...........none
+2023-08-19 14:24:17,184 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:minimumIdle.....................10
+2023-08-19 14:24:17,184 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:password........................<masked>
+2023-08-19 14:24:17,184 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:poolName........................"HikariPool-1"
+2023-08-19 14:24:17,184 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:readOnly........................false
+2023-08-19 14:24:17,184 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:registerMbeans..................false
+2023-08-19 14:24:17,184 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:scheduledExecutor...............none
+2023-08-19 14:24:17,184 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:schema..........................none
+2023-08-19 14:24:17,184 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:threadFactory...................internal
+2023-08-19 14:24:17,185 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:transactionIsolation............default
+2023-08-19 14:24:17,185 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:username........................"postgres"
+2023-08-19 14:24:17,185 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:validationTimeout...............5000
+2023-08-19 14:24:17,185 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2023-08-19 14:24:17,357 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ee0df90
+2023-08-19 14:24:17,358 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2023-08-19 14:24:17,469 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-08-19 14:24:17,510 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@172016fb
+2023-08-19 14:24:17,566 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52229a7b
+2023-08-19 14:24:17,573 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-08-19 14:24:17,614 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@74bac89a
+2023-08-19 14:24:17,661 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@320d6534
+2023-08-19 14:24:17,715 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a013eed
+2023-08-19 14:24:17,769 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4d62b8a8
+2023-08-19 14:24:17,816 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6fbe4786
+2023-08-19 14:24:17,865 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3643bb80
+2023-08-19 14:24:18,008 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45461df3
+2023-08-19 14:24:18,021 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:24:18,085 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-19 14:24:18,120 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-19 14:24:18,356 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-19 14:24:18,473 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:Adding welcome page template: index
+2023-08-19 14:24:18,642 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2023-08-19 14:24:18,674 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-19 14:24:18,683 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:Started ThymeleafApplication in 3.601 seconds (process running for 4.026)
+2023-08-19 14:24:28,843 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-19 14:24:47,481 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:24:47,482 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:25:17,496 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:25:17,496 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:25:27,742 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-19 14:25:27,744 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2023-08-19 14:25:27,745 DEBUG [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:25:27,749 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6ee0df90: (connection evicted)
+2023-08-19 14:25:27,750 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@172016fb: (connection evicted)
+2023-08-19 14:25:27,751 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@52229a7b: (connection evicted)
+2023-08-19 14:25:27,751 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@74bac89a: (connection evicted)
+2023-08-19 14:25:27,751 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@320d6534: (connection evicted)
+2023-08-19 14:25:27,751 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7a013eed: (connection evicted)
+2023-08-19 14:25:27,752 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@4d62b8a8: (connection evicted)
+2023-08-19 14:25:27,752 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6fbe4786: (connection evicted)
+2023-08-19 14:25:27,753 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3643bb80: (connection evicted)
+2023-08-19 14:25:27,753 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@45461df3: (connection evicted)
+2023-08-19 14:25:27,757 DEBUG [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-08-19 14:25:27,757 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2023-08-19 14:25:41,873 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:Starting ThymeleafApplication using Java 17.0.8 with PID 18068 (C:\Users\firti\IdeaProjects\thymeleaf\target\classes started by firti in C:\Users\firti\IdeaProjects\thymeleaf)
+2023-08-19 14:25:41,875 DEBUG [restartedMain] com.example.thymeleaf.ThymeleafApplication:Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-19 14:25:41,875 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:No active profile set, falling back to 1 default profile: "default"
+2023-08-19 14:25:41,926 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-19 14:25:41,926 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-19 14:25:42,548 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-19 14:25:42,599 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2023-08-19 14:25:43,217 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2023-08-19 14:25:43,227 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2023-08-19 14:25:43,227 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-19 14:25:43,275 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2023-08-19 14:25:43,275 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1349 ms
+2023-08-19 14:25:43,333 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:Driver class org.postgresql.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1f4584f0
+2023-08-19 14:25:43,420 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-19 14:25:43,477 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-19 14:25:43,480 INFO  [restartedMain] org.hibernate.cfg.Environment:HHH000406: Using bytecode reflection optimizer
+2023-08-19 14:25:43,595 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-08-19 14:25:43,721 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-19 14:25:43,735 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:HikariPool-1 - configuration:
+2023-08-19 14:25:43,737 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:allowPoolSuspension.............false
+2023-08-19 14:25:43,737 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:autoCommit......................true
+2023-08-19 14:25:43,737 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:catalog.........................none
+2023-08-19 14:25:43,737 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionInitSql...............none
+2023-08-19 14:25:43,738 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionTestQuery.............none
+2023-08-19 14:25:43,738 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionTimeout...............30000
+2023-08-19 14:25:43,738 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSource......................none
+2023-08-19 14:25:43,738 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceClassName.............none
+2023-08-19 14:25:43,738 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceJNDI..................none
+2023-08-19 14:25:43,738 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceProperties............{password=<masked>}
+2023-08-19 14:25:43,739 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:driverClassName................."org.postgresql.Driver"
+2023-08-19 14:25:43,739 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:exceptionOverrideClassName......none
+2023-08-19 14:25:43,739 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:healthCheckProperties...........{}
+2023-08-19 14:25:43,739 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:healthCheckRegistry.............none
+2023-08-19 14:25:43,739 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:idleTimeout.....................600000
+2023-08-19 14:25:43,739 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:initializationFailTimeout.......1
+2023-08-19 14:25:43,739 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:isolateInternalQueries..........false
+2023-08-19 14:25:43,740 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:jdbcUrl.........................jdbc:postgresql://localhost:5432/thymeleaf
+2023-08-19 14:25:43,740 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:keepaliveTime...................0
+2023-08-19 14:25:43,740 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:leakDetectionThreshold..........0
+2023-08-19 14:25:43,740 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:maxLifetime.....................1800000
+2023-08-19 14:25:43,740 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:maximumPoolSize.................10
+2023-08-19 14:25:43,740 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:metricRegistry..................none
+2023-08-19 14:25:43,740 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:metricsTrackerFactory...........none
+2023-08-19 14:25:43,740 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:minimumIdle.....................10
+2023-08-19 14:25:43,740 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:password........................<masked>
+2023-08-19 14:25:43,740 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:poolName........................"HikariPool-1"
+2023-08-19 14:25:43,740 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:readOnly........................false
+2023-08-19 14:25:43,741 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:registerMbeans..................false
+2023-08-19 14:25:43,741 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:scheduledExecutor...............none
+2023-08-19 14:25:43,741 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:schema..........................none
+2023-08-19 14:25:43,741 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:threadFactory...................internal
+2023-08-19 14:25:43,741 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:transactionIsolation............default
+2023-08-19 14:25:43,741 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:username........................"postgres"
+2023-08-19 14:25:43,741 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:validationTimeout...............5000
+2023-08-19 14:25:43,741 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2023-08-19 14:25:43,914 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c8a9f64
+2023-08-19 14:25:43,915 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2023-08-19 14:25:44,023 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-08-19 14:25:44,063 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d383e4d
+2023-08-19 14:25:44,123 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@583ab38e
+2023-08-19 14:25:44,152 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-08-19 14:25:44,171 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@353e2f2b
+2023-08-19 14:25:44,233 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@38154cc1
+2023-08-19 14:25:44,298 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@464dd9ee
+2023-08-19 14:25:44,352 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ab98f34
+2023-08-19 14:25:44,402 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e3aa23f
+2023-08-19 14:25:44,449 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c5b907d
+2023-08-19 14:25:44,502 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14f1bcb1
+2023-08-19 14:25:44,522 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:25:44,700 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-19 14:25:44,733 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-19 14:25:44,987 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-19 14:25:45,120 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:Adding welcome page template: index
+2023-08-19 14:25:45,298 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2023-08-19 14:25:45,327 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-19 14:25:45,336 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:Started ThymeleafApplication in 3.873 seconds (process running for 4.311)
+2023-08-19 14:25:49,181 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-19 14:26:14,035 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:26:14,035 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:26:44,045 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:26:44,045 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:27:14,052 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:27:14,053 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:27:34,945 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-19 14:27:34,948 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2023-08-19 14:27:34,948 DEBUG [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:27:34,949 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7c8a9f64: (connection evicted)
+2023-08-19 14:27:34,950 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1d383e4d: (connection evicted)
+2023-08-19 14:27:34,951 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@583ab38e: (connection evicted)
+2023-08-19 14:27:34,951 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@353e2f2b: (connection evicted)
+2023-08-19 14:27:34,951 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@38154cc1: (connection evicted)
+2023-08-19 14:27:34,952 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@464dd9ee: (connection evicted)
+2023-08-19 14:27:34,952 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6ab98f34: (connection evicted)
+2023-08-19 14:27:34,952 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2e3aa23f: (connection evicted)
+2023-08-19 14:27:34,953 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3c5b907d: (connection evicted)
+2023-08-19 14:27:34,953 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@14f1bcb1: (connection evicted)
+2023-08-19 14:27:34,955 DEBUG [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-08-19 14:27:34,956 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2023-08-19 14:27:48,859 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:Starting ThymeleafApplication using Java 17.0.8 with PID 20984 (C:\Users\firti\IdeaProjects\thymeleaf\target\classes started by firti in C:\Users\firti\IdeaProjects\thymeleaf)
+2023-08-19 14:27:48,861 DEBUG [restartedMain] com.example.thymeleaf.ThymeleafApplication:Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-19 14:27:48,861 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:No active profile set, falling back to 1 default profile: "default"
+2023-08-19 14:27:48,911 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-19 14:27:48,912 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-19 14:27:49,455 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-19 14:27:49,509 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2023-08-19 14:27:50,098 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2023-08-19 14:27:50,107 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2023-08-19 14:27:50,107 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-19 14:27:50,157 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2023-08-19 14:27:50,157 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1245 ms
+2023-08-19 14:27:50,211 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:Driver class org.postgresql.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1f4584f0
+2023-08-19 14:27:50,285 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-19 14:27:50,325 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-19 14:27:50,327 INFO  [restartedMain] org.hibernate.cfg.Environment:HHH000406: Using bytecode reflection optimizer
+2023-08-19 14:27:50,440 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-08-19 14:27:50,554 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-19 14:27:50,565 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:HikariPool-1 - configuration:
+2023-08-19 14:27:50,568 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:allowPoolSuspension.............false
+2023-08-19 14:27:50,568 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:autoCommit......................true
+2023-08-19 14:27:50,568 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:catalog.........................none
+2023-08-19 14:27:50,568 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionInitSql...............none
+2023-08-19 14:27:50,568 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionTestQuery.............none
+2023-08-19 14:27:50,568 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionTimeout...............30000
+2023-08-19 14:27:50,568 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSource......................none
+2023-08-19 14:27:50,568 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceClassName.............none
+2023-08-19 14:27:50,569 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceJNDI..................none
+2023-08-19 14:27:50,569 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceProperties............{password=<masked>}
+2023-08-19 14:27:50,569 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:driverClassName................."org.postgresql.Driver"
+2023-08-19 14:27:50,569 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:exceptionOverrideClassName......none
+2023-08-19 14:27:50,570 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:healthCheckProperties...........{}
+2023-08-19 14:27:50,570 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:healthCheckRegistry.............none
+2023-08-19 14:27:50,570 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:idleTimeout.....................600000
+2023-08-19 14:27:50,570 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:initializationFailTimeout.......1
+2023-08-19 14:27:50,570 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:isolateInternalQueries..........false
+2023-08-19 14:27:50,570 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:jdbcUrl.........................jdbc:postgresql://localhost:5432/thymeleaf
+2023-08-19 14:27:50,570 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:keepaliveTime...................0
+2023-08-19 14:27:50,570 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:leakDetectionThreshold..........0
+2023-08-19 14:27:50,570 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:maxLifetime.....................1800000
+2023-08-19 14:27:50,570 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:maximumPoolSize.................10
+2023-08-19 14:27:50,570 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:metricRegistry..................none
+2023-08-19 14:27:50,570 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:metricsTrackerFactory...........none
+2023-08-19 14:27:50,570 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:minimumIdle.....................10
+2023-08-19 14:27:50,570 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:password........................<masked>
+2023-08-19 14:27:50,571 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:poolName........................"HikariPool-1"
+2023-08-19 14:27:50,571 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:readOnly........................false
+2023-08-19 14:27:50,571 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:registerMbeans..................false
+2023-08-19 14:27:50,571 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:scheduledExecutor...............none
+2023-08-19 14:27:50,571 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:schema..........................none
+2023-08-19 14:27:50,571 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:threadFactory...................internal
+2023-08-19 14:27:50,571 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:transactionIsolation............default
+2023-08-19 14:27:50,571 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:username........................"postgres"
+2023-08-19 14:27:50,571 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:validationTimeout...............5000
+2023-08-19 14:27:50,571 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2023-08-19 14:27:50,726 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4cb7a7f1
+2023-08-19 14:27:50,727 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2023-08-19 14:27:50,837 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-08-19 14:27:50,880 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5dae5148
+2023-08-19 14:27:50,935 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18acc499
+2023-08-19 14:27:50,942 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-08-19 14:27:50,986 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f5af9d
+2023-08-19 14:27:51,051 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78833bd6
+2023-08-19 14:27:51,122 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b0f7152
+2023-08-19 14:27:51,174 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@36533a1f
+2023-08-19 14:27:51,219 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1df1e20f
+2023-08-19 14:27:51,274 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ccd27ec
+2023-08-19 14:27:51,327 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c585cc6
+2023-08-19 14:27:51,341 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:27:51,497 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-19 14:27:51,533 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-19 14:27:51,771 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-19 14:27:51,895 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:Adding welcome page template: index
+2023-08-19 14:27:52,048 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2023-08-19 14:27:52,080 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-19 14:27:52,088 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:Started ThymeleafApplication in 3.625 seconds (process running for 4.045)
+2023-08-19 14:27:59,821 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-19 14:28:20,847 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:28:20,848 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:28:50,853 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:28:50,853 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:29:15,687 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-19 14:29:15,691 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2023-08-19 14:29:15,692 DEBUG [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:29:15,694 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@4cb7a7f1: (connection evicted)
+2023-08-19 14:29:15,695 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5dae5148: (connection evicted)
+2023-08-19 14:29:15,697 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@18acc499: (connection evicted)
+2023-08-19 14:29:15,698 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6f5af9d: (connection evicted)
+2023-08-19 14:29:15,698 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@78833bd6: (connection evicted)
+2023-08-19 14:29:15,699 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6b0f7152: (connection evicted)
+2023-08-19 14:29:15,699 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@36533a1f: (connection evicted)
+2023-08-19 14:29:15,700 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1df1e20f: (connection evicted)
+2023-08-19 14:29:15,700 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7ccd27ec: (connection evicted)
+2023-08-19 14:29:15,701 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6c585cc6: (connection evicted)
+2023-08-19 14:29:15,701 DEBUG [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-08-19 14:29:15,701 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2023-08-19 14:29:37,482 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:Starting ThymeleafApplication using Java 17.0.8 with PID 29020 (C:\Users\firti\IdeaProjects\thymeleaf\target\classes started by firti in C:\Users\firti\IdeaProjects\thymeleaf)
+2023-08-19 14:29:37,484 DEBUG [restartedMain] com.example.thymeleaf.ThymeleafApplication:Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-19 14:29:37,484 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:No active profile set, falling back to 1 default profile: "default"
+2023-08-19 14:29:37,540 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-19 14:29:37,540 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-19 14:29:38,249 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-19 14:29:38,315 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2023-08-19 14:29:38,939 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2023-08-19 14:29:38,947 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2023-08-19 14:29:38,948 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-19 14:29:38,996 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2023-08-19 14:29:38,997 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1456 ms
+2023-08-19 14:29:39,054 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:Driver class org.postgresql.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3cb416f4
+2023-08-19 14:29:39,140 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-19 14:29:39,192 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-19 14:29:39,195 INFO  [restartedMain] org.hibernate.cfg.Environment:HHH000406: Using bytecode reflection optimizer
+2023-08-19 14:29:39,312 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-08-19 14:29:39,437 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-19 14:29:39,449 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:HikariPool-1 - configuration:
+2023-08-19 14:29:39,453 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:allowPoolSuspension.............false
+2023-08-19 14:29:39,453 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:autoCommit......................true
+2023-08-19 14:29:39,453 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:catalog.........................none
+2023-08-19 14:29:39,453 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionInitSql...............none
+2023-08-19 14:29:39,453 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionTestQuery.............none
+2023-08-19 14:29:39,453 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionTimeout...............30000
+2023-08-19 14:29:39,453 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSource......................none
+2023-08-19 14:29:39,453 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceClassName.............none
+2023-08-19 14:29:39,454 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceJNDI..................none
+2023-08-19 14:29:39,454 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceProperties............{password=<masked>}
+2023-08-19 14:29:39,454 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:driverClassName................."org.postgresql.Driver"
+2023-08-19 14:29:39,454 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:exceptionOverrideClassName......none
+2023-08-19 14:29:39,455 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:healthCheckProperties...........{}
+2023-08-19 14:29:39,455 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:healthCheckRegistry.............none
+2023-08-19 14:29:39,455 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:idleTimeout.....................600000
+2023-08-19 14:29:39,455 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:initializationFailTimeout.......1
+2023-08-19 14:29:39,455 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:isolateInternalQueries..........false
+2023-08-19 14:29:39,455 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:jdbcUrl.........................jdbc:postgresql://localhost:5432/thymeleaf
+2023-08-19 14:29:39,455 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:keepaliveTime...................0
+2023-08-19 14:29:39,456 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:leakDetectionThreshold..........0
+2023-08-19 14:29:39,456 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:maxLifetime.....................1800000
+2023-08-19 14:29:39,456 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:maximumPoolSize.................10
+2023-08-19 14:29:39,456 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:metricRegistry..................none
+2023-08-19 14:29:39,456 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:metricsTrackerFactory...........none
+2023-08-19 14:29:39,456 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:minimumIdle.....................10
+2023-08-19 14:29:39,456 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:password........................<masked>
+2023-08-19 14:29:39,456 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:poolName........................"HikariPool-1"
+2023-08-19 14:29:39,456 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:readOnly........................false
+2023-08-19 14:29:39,456 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:registerMbeans..................false
+2023-08-19 14:29:39,457 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:scheduledExecutor...............none
+2023-08-19 14:29:39,457 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:schema..........................none
+2023-08-19 14:29:39,457 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:threadFactory...................internal
+2023-08-19 14:29:39,457 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:transactionIsolation............default
+2023-08-19 14:29:39,457 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:username........................"postgres"
+2023-08-19 14:29:39,457 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:validationTimeout...............5000
+2023-08-19 14:29:39,457 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2023-08-19 14:29:39,618 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@71a9edfd
+2023-08-19 14:29:39,619 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2023-08-19 14:29:39,725 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-08-19 14:29:39,760 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b64b919
+2023-08-19 14:29:39,811 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5e662411
+2023-08-19 14:29:39,847 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-08-19 14:29:39,871 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51e02bdf
+2023-08-19 14:29:39,935 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e49db5e
+2023-08-19 14:29:39,993 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@625ac963
+2023-08-19 14:29:40,140 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1a8a4ed2
+2023-08-19 14:29:40,200 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ae4208f
+2023-08-19 14:29:40,246 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a0781a6
+2023-08-19 14:29:40,290 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e225654
+2023-08-19 14:29:40,303 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:29:40,392 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-19 14:29:40,427 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-19 14:29:40,683 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-19 14:29:40,806 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:Adding welcome page template: index
+2023-08-19 14:29:40,984 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2023-08-19 14:29:41,017 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-19 14:29:41,025 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:Started ThymeleafApplication in 3.985 seconds (process running for 4.427)
+2023-08-19 14:29:51,337 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-19 14:30:09,739 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:30:09,739 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:30:39,227 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-19 14:30:39,231 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2023-08-19 14:30:39,231 DEBUG [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:30:39,232 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@71a9edfd: (connection evicted)
+2023-08-19 14:30:39,233 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1b64b919: (connection evicted)
+2023-08-19 14:30:39,234 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5e662411: (connection evicted)
+2023-08-19 14:30:39,234 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@51e02bdf: (connection evicted)
+2023-08-19 14:30:39,234 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3e49db5e: (connection evicted)
+2023-08-19 14:30:39,235 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@625ac963: (connection evicted)
+2023-08-19 14:30:39,235 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1a8a4ed2: (connection evicted)
+2023-08-19 14:30:39,235 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@4ae4208f: (connection evicted)
+2023-08-19 14:30:39,236 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3a0781a6: (connection evicted)
+2023-08-19 14:30:39,236 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@e225654: (connection evicted)
+2023-08-19 14:30:39,236 DEBUG [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-08-19 14:30:39,236 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
+2023-08-19 14:30:46,236 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:Starting ThymeleafApplication using Java 17.0.8 with PID 20808 (C:\Users\firti\IdeaProjects\thymeleaf\target\classes started by firti in C:\Users\firti\IdeaProjects\thymeleaf)
+2023-08-19 14:30:46,237 DEBUG [restartedMain] com.example.thymeleaf.ThymeleafApplication:Running with Spring Boot v3.1.2, Spring v6.0.11
+2023-08-19 14:30:46,238 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:No active profile set, falling back to 1 default profile: "default"
+2023-08-19 14:30:46,288 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-19 14:30:46,288 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-19 14:30:46,836 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-19 14:30:46,895 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate:Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2023-08-19 14:30:47,541 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8080 (http)
+2023-08-19 14:30:47,551 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2023-08-19 14:30:47,552 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-19 14:30:47,609 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2023-08-19 14:30:47,609 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 1320 ms
+2023-08-19 14:30:47,669 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:Driver class org.postgresql.Driver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1f4584f0
+2023-08-19 14:30:47,755 INFO  [restartedMain] org.hibernate.jpa.internal.util.LogHelper:HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-19 14:30:47,820 INFO  [restartedMain] org.hibernate.Version:HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-08-19 14:30:47,823 INFO  [restartedMain] org.hibernate.cfg.Environment:HHH000406: Using bytecode reflection optimizer
+2023-08-19 14:30:47,934 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-08-19 14:30:48,036 INFO  [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo:No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-19 14:30:48,048 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:HikariPool-1 - configuration:
+2023-08-19 14:30:48,051 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:allowPoolSuspension.............false
+2023-08-19 14:30:48,052 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:autoCommit......................true
+2023-08-19 14:30:48,052 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:catalog.........................none
+2023-08-19 14:30:48,052 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionInitSql...............none
+2023-08-19 14:30:48,052 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionTestQuery.............none
+2023-08-19 14:30:48,052 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:connectionTimeout...............30000
+2023-08-19 14:30:48,052 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSource......................none
+2023-08-19 14:30:48,052 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceClassName.............none
+2023-08-19 14:30:48,052 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceJNDI..................none
+2023-08-19 14:30:48,052 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:dataSourceProperties............{password=<masked>}
+2023-08-19 14:30:48,053 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:driverClassName................."org.postgresql.Driver"
+2023-08-19 14:30:48,053 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:exceptionOverrideClassName......none
+2023-08-19 14:30:48,053 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:healthCheckProperties...........{}
+2023-08-19 14:30:48,053 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:healthCheckRegistry.............none
+2023-08-19 14:30:48,053 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:idleTimeout.....................600000
+2023-08-19 14:30:48,053 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:initializationFailTimeout.......1
+2023-08-19 14:30:48,053 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:isolateInternalQueries..........false
+2023-08-19 14:30:48,053 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:jdbcUrl.........................jdbc:postgresql://localhost:5432/thymeleaf
+2023-08-19 14:30:48,054 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:keepaliveTime...................0
+2023-08-19 14:30:48,054 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:leakDetectionThreshold..........0
+2023-08-19 14:30:48,054 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:maxLifetime.....................1800000
+2023-08-19 14:30:48,054 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:maximumPoolSize.................10
+2023-08-19 14:30:48,054 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:metricRegistry..................none
+2023-08-19 14:30:48,054 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:metricsTrackerFactory...........none
+2023-08-19 14:30:48,054 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:minimumIdle.....................10
+2023-08-19 14:30:48,055 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:password........................<masked>
+2023-08-19 14:30:48,055 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:poolName........................"HikariPool-1"
+2023-08-19 14:30:48,055 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:readOnly........................false
+2023-08-19 14:30:48,057 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:registerMbeans..................false
+2023-08-19 14:30:48,058 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:scheduledExecutor...............none
+2023-08-19 14:30:48,058 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:schema..........................none
+2023-08-19 14:30:48,058 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:threadFactory...................internal
+2023-08-19 14:30:48,058 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:transactionIsolation............default
+2023-08-19 14:30:48,058 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:username........................"postgres"
+2023-08-19 14:30:48,058 DEBUG [restartedMain] com.zaxxer.hikari.HikariConfig:validationTimeout...............5000
+2023-08-19 14:30:48,058 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Starting...
+2023-08-19 14:30:48,293 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c8a9f64
+2023-08-19 14:30:48,295 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Start completed.
+2023-08-19 14:30:48,405 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-08-19 14:30:48,446 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5dae5148
+2023-08-19 14:30:48,512 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18acc499
+2023-08-19 14:30:48,516 INFO  [restartedMain] org.hibernate.bytecode.internal.BytecodeProviderInitiator:HHH000021: Bytecode provider name : bytebuddy
+2023-08-19 14:30:48,679 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f5af9d
+2023-08-19 14:30:48,739 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@78833bd6
+2023-08-19 14:30:48,797 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b0f7152
+2023-08-19 14:30:48,845 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@36533a1f
+2023-08-19 14:30:48,895 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1df1e20f
+2023-08-19 14:30:48,957 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ccd27ec
+2023-08-19 14:30:49,001 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c585cc6
+2023-08-19 14:30:49,015 DEBUG [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:30:49,065 INFO  [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator:HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-19 14:30:49,099 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-19 14:30:49,354 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration:spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-19 14:30:49,477 INFO  [restartedMain] org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:Adding welcome page template: index
+2023-08-19 14:30:49,651 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2023-08-19 14:30:49,682 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-19 14:30:49,692 INFO  [restartedMain] com.example.thymeleaf.ThymeleafApplication:Started ThymeleafApplication in 3.87 seconds (process running for 4.293)
+2023-08-19 14:31:00,302 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-19 14:31:18,408 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:31:18,409 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:31:48,419 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:31:48,419 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:32:18,429 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:32:18,429 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:32:48,435 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:32:48,435 DEBUG [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-08-19 14:33:18,235 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean:Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-19 14:33:18,238 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown initiated...
+2023-08-19 14:33:18,238 DEBUG [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-08-19 14:33:18,240 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7c8a9f64: (connection evicted)
+2023-08-19 14:33:18,240 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@5dae5148: (connection evicted)
+2023-08-19 14:33:18,241 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@18acc499: (connection evicted)
+2023-08-19 14:33:18,241 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6f5af9d: (connection evicted)
+2023-08-19 14:33:18,242 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@78833bd6: (connection evicted)
+2023-08-19 14:33:18,242 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6b0f7152: (connection evicted)
+2023-08-19 14:33:18,242 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@36533a1f: (connection evicted)
+2023-08-19 14:33:18,243 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@1df1e20f: (connection evicted)
+2023-08-19 14:33:18,243 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7ccd27ec: (connection evicted)
+2023-08-19 14:33:18,244 DEBUG [HikariPool-1 connection closer] com.zaxxer.hikari.pool.PoolBase:HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@6c585cc6: (connection evicted)
+2023-08-19 14:33:18,245 DEBUG [SpringApplicationShutdownHook] com.zaxxer.hikari.pool.HikariPool:HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-08-19 14:33:18,245 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource:HikariPool-1 - Shutdown completed.
